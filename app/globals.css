@@ -539,14 +539,27 @@ body {
         display: flex;
         flex-direction: column;
         flex: none;
+        width: 100%;
     }
 
     .sidebar {
+        position: relative;
+        width: 100%;
         border-right: none;
         border-bottom: 1px solid var(--border);
         padding: 24px;
         overflow: visible;
         max-height: none;
+        flex-shrink: 0;
+    }
+
+    .main-content {
+        position: relative;
+        width: 100%;
+        background: var(--bg-primary);
+        padding: 24px;
+        overflow: visible;
+        flex-shrink: 0;
     }
 
     .section {
@@ -600,10 +613,7 @@ body {
         margin-top: 4px;
     }
 
-    .main-content {
-        padding: 24px;
-        overflow: visible;
-    }
+    /* main-content styles moved up to after .sidebar */
 
     .tabs-nav {
         margin-bottom: 24px;
@@ -712,6 +722,8 @@ body {
     }
 
     .sidebar {
+        position: relative;
+        width: 100%;
         padding: 20px;
         padding-left: calc(20px + env(safe-area-inset-left));
         padding-right: calc(20px + env(safe-area-inset-right));
@@ -720,9 +732,12 @@ body {
     }
 
     .main-content {
+        position: relative;
+        width: 100%;
         padding: 20px;
         padding-left: calc(20px + env(safe-area-inset-left));
         padding-right: calc(20px + env(safe-area-inset-right));
+        background: var(--bg-primary);
     }
 
     .tabs-nav {
