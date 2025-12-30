@@ -31,16 +31,16 @@ export default function AboutMeTab() {
       {/* Bio */}
       <div className="bio-content">
         <p>
-          I've been lucky to call three continents home—Sydney for elementary school at SCECGS Redlands, Shanghai for high school at SAS, and Toronto for university at U of T where I studied Human Biology. Each chapter brought new adventures and taught me to thrive in unfamiliar places!
+          I grew up across three continents—Sydney for elementary school at SCECGS Redlands, Shanghai for high school at SAS, and Toronto for university at U of T where I studied Human Biology. Moving around taught me to adapt quickly and feel at home in new environments.
         </p>
         <p>
-          Swimming shaped who I am. As a varsity athlete, I trained under an Olympic-level coach who instilled a love for technique and the joy of steady improvement. That mindset carries into everything I do—I genuinely enjoy the process of getting better, and I'm always excited to put in the work to build something right.
+          Swimming was a big part of my life growing up. As a varsity athlete, I trained under an Olympic-level coach who emphasized technique and consistency. That approach stuck with me—I like putting in the work to do things properly rather than cutting corners.
         </p>
         <p>
-          These days, I'm all about golf—I loved it so much I flew out to Irvine for TPI Level 3 certification! I also discovered freediving and hit a 3-minute breath hold (PADI certified so I can explore the best spots). Tennis, fitness, and the mind-body connection keep me energized. And for fun? Video games—currently hooked on Mario Kart and TFT, though I've spent countless hours on everything from Overwatch to Binding of Isaac.
+          These days, I'm into golf—enough that I flew out to Irvine for TPI Level 3 certification. I also picked up freediving (3-minute breath hold, PADI certified) and enjoy tennis and fitness. When I want to unwind, it's video games—Mario Kart and TFT lately, though I've played everything from Overwatch to Binding of Isaac over the years.
         </p>
         <p>
-          I'm naturally curious and love figuring things out. Whether it's optimizing a system or learning a new skill, I get excited about the challenge and the growth that comes with it.
+          I'm naturally curious and like figuring out how things work. I'm always looking for ways to simplify tasks and automate the repetitive stuff—freeing up time to focus on the problems that actually matter. Whether it's a technical challenge or a new skill, I enjoy the process of working through it.
         </p>
       </div>
     </div>
