@@ -545,6 +545,7 @@ body {
         border-bottom: 1px solid var(--border);
         padding: 24px;
         overflow: visible;
+        max-height: none;
     }
 
     .section {
@@ -709,7 +710,14 @@ body {
         height: 18px;
     }
 
-    .sidebar,
+    .sidebar {
+        padding: 20px;
+        padding-left: calc(20px + env(safe-area-inset-left));
+        padding-right: calc(20px + env(safe-area-inset-right));
+        max-height: none;
+        overflow: visible;
+    }
+
     .main-content {
         padding: 20px;
         padding-left: calc(20px + env(safe-area-inset-left));
@@ -746,8 +754,10 @@ body {
 
     .profile-card {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+        padding-bottom: 24px;
     }
 
     .profile-image {
