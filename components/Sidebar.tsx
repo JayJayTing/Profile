@@ -28,6 +28,8 @@ export default function Sidebar() {
             <span className="tag">GraphQL</span>
             <span className="tag">MongoDB</span>
             <span className="tag">WebSockets</span>
+            <span className="tag">Java</span>
+            <span className="tag">Python</span>
           </div>
         </div>
         <div className="skill-group">

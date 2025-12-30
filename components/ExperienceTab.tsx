@@ -44,6 +44,22 @@ export default function ExperienceTab() {
           <li>Built a Unity game using 3D characters trained with reinforcement learning for procedural animation</li>
         </ul>
       </article>
+
+      <article className="job">
+        <div className="job-header">
+          <div>
+            <h3 className="job-title">Product Manager</h3>
+            <p className="job-company">Sihuan Pharmaceuticals · Beijing, China</p>
+          </div>
+          <span className="job-date">2016 – 2017</span>
+        </div>
+        <ul className="job-details">
+          <li>Led product analysis and marketing strategy for pharmaceutical products</li>
+          <li>Delivered presentations to audiences of 100+ people on drug research</li>
+          <li>Conducted market research and interviewed senior medical professionals</li>
+          <li>Promoted and increased sales of CFDA approved drugs</li>
+        </ul>
+      </article>
     </>
   )
 }

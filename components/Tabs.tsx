@@ -2,12 +2,14 @@
 
 import { useState } from 'react'
 import ExperienceTab from './ExperienceTab'
+import ProjectsTab from './ProjectsTab'
 import AboutMeTab from './AboutMeTab'
 
-type TabId = 'experience' | 'about'
+type TabId = 'experience' | 'projects' | 'about'
 
 const tabs = [
   { id: 'experience' as TabId, label: 'Experience' },
+  { id: 'projects' as TabId, label: 'Projects' },
   { id: 'about' as TabId, label: 'About Me' },
 ]
 
@@ -30,6 +32,7 @@ export default function Tabs() {
 
       <div className="tab-content">
         {activeTab === 'experience' && <ExperienceTab />}
+        {activeTab === 'projects' && <ProjectsTab />}
         {activeTab === 'about' && <AboutMeTab />}
       </div>
     </section>
