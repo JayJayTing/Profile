@@ -1,17 +1,16 @@
-import Image from 'next/image'
+/* eslint-disable @next/next/no-img-element */
 
 export default function AboutMeTab() {
   return (
     <div className="about-me-content">
       {/* Profile Card */}
       <div className="profile-card">
-        <Image
-          src="/profile.png"
+        <img
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/profile.png`}
           alt="Jay Jay Ting"
           width={100}
           height={100}
           className="profile-image"
-          unoptimized
         />
         <a
           href="https://www.instagram.com/jzizzles"
