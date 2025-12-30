@@ -11,7 +11,7 @@ export default function AboutMeTab() {
           width={100}
           height={100}
           className="profile-image"
-          priority
+          unoptimized
         />
         <a
           href="https://www.instagram.com/jzizzles"
