@@ -6,9 +6,7 @@ export default function ProjectsTab() {
           <div>
             <h3 className="job-title">Raptors Ticket</h3>
             <p className="job-company">
-              <a href="https://www.raptorsticket.com" target="_blank" rel="noopener noreferrer">
-                raptorsticket.com
-              </a>
+              raptorsticket.com <span style={{ color: '#64748b', fontWeight: 400 }}>(currently offline)</span>
             </p>
           </div>
           <span className="job-date">2019</span>
